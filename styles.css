@@ -1,0 +1,102 @@
+body{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top */
+
+.top{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    background-image: url("images/rourkela.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+/* activity */
+
+.inside-el{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+p{
+    font-size: 1.12rem;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.heading2{
+    background-color: aqua;
+    margin: 0;
+    padding: 50px 0;
+    width: 100vw;
+}
+
+.activity-image{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.middle{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(aqua, lightgreen);
+}
+
+/* guide */
+.guide-main{
+    width: 100vw;
+    background: linear-gradient(lightgreen, skyblue);
+    margin: 0;
+    padding: 5px 0;
+}
+
+.guide-container{
+    background: linear-gradient(#61a5c2, #014f86);
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    border-bottom: 5px solid #001d3d;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+.guide-img{
+    width: 200px;
+    padding-right: 30px;
+}
+
+.guide-description{
+    color: black;
+    text-shadow: 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.italic{
+    font-style: italic;
+}
